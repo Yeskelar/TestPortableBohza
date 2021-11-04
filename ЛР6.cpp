@@ -16,13 +16,6 @@ int main()
  cin >> x;
  cout << "Введіть h: ";
  cin >> h;
- //do
-	//{
-	// y = sin(x) + abs(x) + pow(2, x);
-	// cout << setw(10) << "Y = " << setw(5) << y << endl;
-	// x += h;
-	//}
- //while (x <= b);
  while (x <= b)
  {
 	 y = sin(x) + abs(x) + pow(2, x);
